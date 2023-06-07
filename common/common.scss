@@ -1,0 +1,81 @@
+//html中有元素 <a> </a> 这样的就是一个超链接元素 只要你中键能够跳进新的网站 那就是a
+
+
+//每个元素可以有classes（没错不止一个class），比如 navigation-container category-drop，用来指明这类元素的用法
+
+//每个元素还可以有独一无二的id
+
+//而每一个css则是这么个写法：
+/* .class1.class2 [element] (under) [element] > (directly under) [element],[another element]:pseudo-class {
+
+
+} */
+
+
+
+
+.d-header {
+    box-shadow: none;
+    border-bottom: 1px solid var(--primary-low-mid);
+    height: 5em;
+        .d-icon {
+        color: var(--primary-low-mid);
+        
+      }
+    }
+
+.navigation-container {
+    .select-kit.combo-box {
+        .select-kit-header {
+        border-radius: .9em;
+        background-color: var(--header_background);
+        }
+    }
+    }
+
+.navigation-container {
+    .select-kit.combo-box { // have both class names
+        &.category-drop, &.tag-drop {
+        .select-kit-body {
+        border-radius: .9em;
+        background-color: var(--header_background);
+    
+        .select-kit-collection {
+            background-color: var(--header_background);
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+        }
+        .select-kit-filter {
+            border-top: 0px;
+        }
+        }
+    }
+    }
+}
+
+
+.hello-world-banner {
+    height: 300px;
+    width: 100%;
+    background: rgb(255, 227, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+
+
+.nav-pills {
+	& > li a { 
+      &.active {
+       color: var(--tertiary);
+       background-color: var(--secondary);
+       border-bottom: 4px solid var(--tertiary);
+	  }
+  }
+}
+
+.badge-category-bg{
+    border-radius: .9em;
+}
