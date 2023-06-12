@@ -24,6 +24,48 @@
       }
     }
 
+
+
+
+.link.btn.no-text.btn-icon{
+    display: none;
+}
+
+.local-dates.btn.no-text.btn-icon{
+    display: none;
+}
+
+.widget-button.btn-flat.create-flag.no-text{
+    display: none;
+}
+
+.widget-button.btn-flat.share.no-text{
+    display: none;
+}
+
+.widget-button.btn-flat.bookmark.no-text{
+    display: none;
+}
+.quote.btn.no-text.btn-icon{
+    display: none;
+}
+
+.add-section.btn.btn-flat{
+    display: none;
+}
+
+.btn-default.topic-footer-button.bookmark{
+    display: none;
+}
+
+.btn-default.topic-footer-button.share-and-invite{
+    display: none;
+}
+
+.suggested-topics-message{
+    display: none;
+}
+
 .navigation-container {
     .select-kit.combo-box {
         .select-kit-header {
@@ -31,7 +73,7 @@
         background-color: var(--header_background);
         }
     }
-    }
+}
 
 .navigation-container {
     .select-kit.combo-box { // have both class names
@@ -55,26 +97,19 @@
 
 
 .hello-world-banner {
-    height: 300px;
+    height: 30px;
     width: 100%;
-    background: rgb(255, 227, 255);
+    background: var(--secondary);
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 1em;
 }
 
-
-
-.nav-pills {
-	& > li a { 
-      &.active {
-       color: var(--tertiary);
-       background-color: var(--secondary);
-       border-bottom: 4px solid var(--tertiary);
-	  }
-  }
+.prefix-span{
+    border-radius: .9em;
 }
+
 
 .badge-category-bg{
     border-radius: .9em;
