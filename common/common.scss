@@ -54,6 +54,7 @@
     display: none;
 }
 
+
 .btn-default.topic-footer-button.bookmark{
     display: none;
 }
@@ -62,8 +63,69 @@
     display: none;
 }
 
+.fa.d-icon.d-icon-pencil-alt.svg-icon.svg-string{
+    display: none;
+}
+
+li.sidebar-section-link-wrapper[data-list-item-name="all-categories"] {
+    display: none;
+}
+
+.timeline-container {
+    display: none;
+}
+
+//搜索栏的自定义
+
+.search-menu.search-header{
+    margin-top: 21px;
+    border-radius: 5px;
+}
+
+.search-input{
+    background-color: transparent;
+    margin-right: 0px;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.search-term{
+    border: transparent;
+}
+
+.widget-button.btn.search-icon{
+    border: transparent;
+}
+
+.d-icon-search{
+    width: 23px;
+    height: 23px;
+}
+.bootstrap-mode{
+    display: none;
+}
+
+.sidebar-section-wrapper.sidebar-section[data-section-name="chat-channels"]{
+    display: none;
+}
+
+.sidebar-section-link.sidebar-row[data-link-name="all-tags"]{
+    display: none;
+}
+
 .suggested-topics-message{
     display: none;
+}
+.views.sortable.num.topic-list-data{
+    display: none;
+}
+
+.num.views.topic-list-data{
+    display: none;
+}
+
+.link-bottom-line{
+    padding: 5px 0px;
 }
 
 .navigation-container {

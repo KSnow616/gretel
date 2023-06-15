@@ -1,3 +1,11 @@
-<script type="text/x-handlebars" data-template-name="/connectors/below-public-chat-channels/foobar3">
-  <div style="height: 25px; width: 25px;background: red"></div>
-</script>
+<script type="text/discourse-plugin" version="0.8">
+  const { iconNode } = require("discourse-common/lib/icon-library");
+  // TOOLBAR
+  api.onToolbarCreate(toolbar => {
+      toolbar.addButton({
+          id: "underline_button",
+          group: "fontStyles",
+          icon: "underline",
+          perform: e => e.applySurround('<iframe width="600" height="400" src="//player.bilibili.com/player.html?bvid=', '&page=1&autoplay=0"  scrolling="no"  border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>', 'BV号')
+      });
+  });
