@@ -11,10 +11,7 @@
 
 } */
 
-$banner: "1.png";
-
-
-.link.btn.no-text.btn-icon{
+.information.private-message-map{
     display: none;
 }
 
@@ -63,10 +60,52 @@ li.sidebar-section-link-wrapper[data-list-item-name="all-categories"] {
     display: none;
 }
 
+.sidebar-section-link.sidebar-row[data-link-name="badges"]{
+    display: none;
+}
+
+
+
+
+//链接onebox
+
+aside.onebox{
+    border-radius: 10px;
+    margin: 1px;
+    overflow: hidden;
+    border: 2px solid var(--primary-low);
+}
+
+aside.onebox p{
+    padding-top: 10px;
+    white-space: nowrap; /* 禁止文本换行 */
+    overflow: hidden; /* 超出 <p> 元素宽度的文本隐藏 */
+    text-overflow: ellipsis; /* 文本溢出时显示省略号 */
+  
+}
+
+aside.onebox header{
+    display: none;
+}
+
+aside.onebox h3 {
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+.new-user{
+    display: none;
+}
+
+.category-input{
+    display: none;
+}
 
 .timeline-container {
     display: none;
 }
+
+
 
 //搜索栏的自定义
 
@@ -151,16 +190,7 @@ li.sidebar-section-link-wrapper[data-list-item-name="all-categories"] {
 }
 
 
-.gretel-banner {
-    height: 30px;
-    width: 100%;
-    background: var(--secondary);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1em;
-    background-image: $banner;
-}
+
 
 .prefix-span{
     border-radius: .9em;
